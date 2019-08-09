@@ -19,7 +19,7 @@ public blogData;
 public currentBlog;
 public allBlogs;
 public baseurl='https://blogapp.edwisor.com/api/v1/blogs';
-public authToken='ZDBjZDYyYmFjNTlhOTIyYThlM2RlMTFiYmZkZTMwYTkzMTM4Y2VmNGU5ZTFhMmQ3ODAwMTMxM2JjZDJjZjg0YmUwNTBhZTk5ZWNiOWNkMGMwZmZmZTBjM2Y5M2U4YTkwZWY3NDMzMDJlM2MxMmNiODUyZjgzOGQ3ZDRiYWY2OWEwMg==';
+public authToken='OGE3YzE0YjkyYzBhNDFmMzJjYTliMjVmYWMzY2RkNWVmOWY3ODE4ZjhlMjkwY2VmZThjZTExYTFiMTY3N2Q5MGU4Yjk4MTM3MzQzMGE2YTAwYmMzODQzZWZiNzAzODFjYzM1YTEwMzVmZjcxYmE5YTRiODc1MjAxYjY1ZjZlYTJiNA==';
 
 //create the instance of service
   constructor(private _http:HttpClient) { }
