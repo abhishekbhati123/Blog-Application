@@ -7,7 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "heroku-postbuild": "ng build --prod"
   },
   "private": true,
   "dependencies": {
@@ -21,12 +22,15 @@
     "@angular/router": "~7.2.0",
     "bootstrap": "^3.4.1",
     "core-js": "^2.5.4",
+    "enhanced-resolve": "^4.1.0",
     "express": "^4.17.1",
     "jquery": "^3.4.0",
     "ng2-toastr": "^4.1.2",
     "ngx-toastr": "^10.0.4",
+    "path": "^0.12.7",
     "rxjs": "~6.3.3",
     "tslib": "^1.9.0",
+    "typescript": "~3.2.2",
     "zone.js": "~0.8.26"
   },
   "devDependencies": {
@@ -49,5 +53,9 @@
     "ts-node": "~7.0.0",
     "tslint": "~5.11.0",
     "typescript": "~3.2.2"
+  },
+  "engines": {
+    "node": "11.8.0",
+    "npm": "6.9.0"
   }
 }
