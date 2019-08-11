@@ -1,4 +1,4 @@
- <div class="container" *ngIf="body"  >
+ <div class="container"   >
 
   <div class="row" style="text-align:left">
     <div class="col-md-12">
@@ -24,10 +24,10 @@
             required>
             <div [hidden]="description.valid || description.pristine" class="alert alert-danger">Please Enter a Description</div>
         </div>
-        <div *ngIf="body" class="form-group">
+        <div class="form-group">
           <label>Enter the blog body</label>
           <textarea name="blogBodyHtml" [(ngModel)]="blogBodyHtml" #blogBody="ngModel"  class="form-control" rows="3" required></textarea>
-        <div [hidden]="body.valid || body.pristine">Please Enter Blog Body</div>
+        <div [hidden]="blogBody.valid || blogBody.pristine">Please Enter Blog Body</div>
         </div>
         <div class="form-group">
           <label>Category</label>
